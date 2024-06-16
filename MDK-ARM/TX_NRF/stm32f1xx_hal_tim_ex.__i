@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include --C99 
+-I C:\Users\Public\ARM\RV31\INC 
+-I C:\Users\Public\ARM\CMSIS\Include 
+-DUSE_HAL_DRIVER -DSTM32F103xB -o "TX_NRF\stm32f1xx_hal_tim_ex.o" --omf_browse "TX_NRF\stm32f1xx_hal_tim_ex.crf" --depend "TX_NRF\stm32f1xx_hal_tim_ex.d" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"

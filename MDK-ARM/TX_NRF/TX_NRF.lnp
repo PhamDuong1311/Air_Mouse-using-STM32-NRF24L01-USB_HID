@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "tx_nrf\startup_stm32f103xb.o" "tx_nrf\main.o" "tx_nrf\stm32f1xx_it.o" "tx_nrf\stm32f1xx_hal_msp.o" "tx_nrf\stm32f1xx_hal_gpio_ex.o" "tx_nrf\stm32f1xx_hal_i2c.o" "tx_nrf\stm32f1xx_hal.o" "tx_nrf\stm32f1xx_hal_rcc.o" "tx_nrf\stm32f1xx_hal_rcc_ex.o" "tx_nrf\stm32f1xx_hal_gpio.o" "tx_nrf\stm32f1xx_hal_dma.o" "tx_nrf\stm32f1xx_hal_cortex.o" "tx_nrf\stm32f1xx_hal_pwr.o" "tx_nrf\stm32f1xx_hal_flash.o" "tx_nrf\stm32f1xx_hal_flash_ex.o" "tx_nrf\stm32f1xx_hal_exti.o" "tx_nrf\stm32f1xx_hal_spi.o" "tx_nrf\stm32f1xx_hal_tim.o" "tx_nrf\stm32f1xx_hal_tim_ex.o" "tx_nrf\system_stm32f1xx.o" "tx_nrf\nrf24l01.o" "tx_nrf\gy521.o" 
+--strict --scatter "TX_NRF\TX_NRF.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "TX_NRF.map" -o TX_NRF\TX_NRF.axf
