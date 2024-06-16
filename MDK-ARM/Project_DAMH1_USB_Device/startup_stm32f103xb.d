@@ -1,0 +1,1 @@
+project_damh1_usb_device\startup_stm32f103xb.o: startup_stm32f103xb.s
